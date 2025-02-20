@@ -67,12 +67,12 @@ This project is perfect for **learning purposes** and **prototyping optimization
 ---------------------
 
 Follow these steps to set up the project locally:
-git clone https://github.com/Omega-84/Supply-Chain-Optimization.git  
+`git clone https://github.com/Omega-84/Supply-Chain-Optimization.git
 cd Supply-Chain-Optimization  
 python -m venv env  
 source env/bin/activate  
 pip install -r requirements.txt  
-streamlit run main.py   `
+streamlit run main.py`
 
 🔄 Steps to Recreate the Project
 --------------------------------
@@ -110,24 +110,24 @@ Write your main Streamlit app logic in app.py. Include:
 ---------------------------------------
 
 Generate a requirements.txt file with all dependencies:
-pip freeze > requirements.txt   `
+`pip freeze > requirements.txt`
 
 Ensure it includes:
 
-streamlit  pulp  pandas  numpy   `
+`streamlit  pulp  pandas  numpy   `
 
 5\. Test Locally
 ----------------
 
 Run your app locally using:
 
-streamlit run main.py   `
+`streamlit run main.py   `
 
 6\. Push to GitHub
 ------------------
 
 Initialize a Git repository, commit your files, and push them to GitHub:
-git init  
+`git init  
 git add .  
 git commit -m "Initial commit"  
 git branch -M main  
