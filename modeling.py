@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-from pulp import LpProblem, LpMinimize, LpMaximize, LpVariable, lpSum, LpStatusOptimal
+from pulp import *
 
 def run_modeling():
     # Create the optimization models
