@@ -67,12 +67,12 @@ This project is perfect for **learning purposes** and **prototyping optimization
 ---------------------
 
 Follow these steps to set up the project locally:
-`git clone https://github.com/Omega-84/Supply-Chain-Optimization.git
-cd Supply-Chain-Optimization  
-python -m venv env  
-source env/bin/activate  
-pip install -r requirements.txt  
-streamlit run main.py`
+`git clone https://github.com/Omega-84/Supply-Chain-Optimization.git`
+`cd Supply-Chain-Optimization`  
+`python -m venv env  `
+`source env/bin/activate  `
+`pip install -r requirements.txt  `
+`streamlit run main.py`
 
 🔄 Steps to Recreate the Project
 --------------------------------
@@ -92,7 +92,7 @@ If you'd like to recreate this project from scratch, follow these steps:
 
 Install the following libraries using pip:
 
-pip install -r requirements.txt   `
+`pip install -r requirements.txt   `
 
 3\. Create the Main App File (app.py)
 -------------------------------------
@@ -127,12 +127,12 @@ Run your app locally using:
 ------------------
 
 Initialize a Git repository, commit your files, and push them to GitHub:
-`git init  
-git add .  
-git commit -m "Initial commit"  
-git branch -M main  
-git remote add origin https://github.com/[your-username]/Supply-Chain-Optimization.git  
-git push -u origin main   `
+`git init  `
+`git add .  `
+`git commit -m "Initial commit"  `
+`git branch -M main  `
+`git remote add origin https://github.com/[your-username]/Supply-Chain-Optimization.git  `
+`git push -u origin main   `
 
 7\. Deploy on Streamlit Cloud (Optional)
 ----------------------------------------
