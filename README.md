@@ -3,6 +3,8 @@ Supply Chain Optimization App 🚚
 
 Welcome to the **Supply Chain Optimization App**, an interactive and educational tool designed to demonstrate supply chain optimization techniques. This app is built with [Streamlit](https://streamlit.io/) and [PuLP](https://coin-or.github.io/pulp/), allowing users to explore how to optimize shipping strategies in a supply chain network. Whether you're a student, developer, or supply chain enthusiast, this project provides a hands-on learning experience.
 
+Play with the app [here](https://supply-chain-optimization-uhyppe8adkzncnuhzu8ugd.streamlit.app/)
+
 📖 Overview
 -----------
 
