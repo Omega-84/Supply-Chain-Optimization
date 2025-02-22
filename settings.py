@@ -32,3 +32,10 @@ def run_settings():
         st.session_state["stage"] = "inputs"
         # Use experimental_rerun() to refresh the app for the next stage
         st.rerun()
+    st.markdown(
+        """
+        ---
+        **Author(s):** [Aujaswi Agarwal](https://www.linkedin.com/in/agarwal-aujaswi/) , [Varun Nayyar](https://www.linkedin.com/in/varun-nayyar-ml/) 
+        ---
+        """
+    )
