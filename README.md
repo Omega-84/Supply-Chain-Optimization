@@ -3,6 +3,8 @@ Supply Chain Optimization App 🚚
 
 Welcome to the **Supply Chain Optimization App**, an interactive and educational tool designed to demonstrate supply chain optimization techniques. This app is built with [Streamlit](https://streamlit.io/) and [PuLP](https://coin-or.github.io/pulp/), allowing users to explore how to optimize shipping strategies in a supply chain network. Whether you're a student, developer, or supply chain enthusiast, this project provides a hands-on learning experience.
 
+Play with the app [here](https://supply-chain-optimization-uhyppe8adkzncnuhzu8ugd.streamlit.app/)
+
 📖 Overview
 -----------
 
@@ -67,8 +69,12 @@ This project is perfect for **learning purposes** and **prototyping optimization
 ---------------------
 
 Follow these steps to set up the project locally:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/Omega-84/Supply-Chain-Optimization.git  cd Supply-Chain-Optimization  python -m venv env  source env/bin/activate  pip install -r requirements.txt  streamlit run main.py   `
+`git clone https://github.com/Omega-84/Supply-Chain-Optimization.git`
+`cd Supply-Chain-Optimization`  
+`python -m venv env  `
+`source env/bin/activate  `
+`pip install -r requirements.txt  `
+`streamlit run main.py`
 
 🔄 Steps to Recreate the Project
 --------------------------------
@@ -88,7 +94,7 @@ If you'd like to recreate this project from scratch, follow these steps:
 
 Install the following libraries using pip:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip install -r requirements.txt   `
+`pip install -r requirements.txt   `
 
 3\. Create the Main App File (app.py)
 -------------------------------------
@@ -106,26 +112,29 @@ Write your main Streamlit app logic in app.py. Include:
 ---------------------------------------
 
 Generate a requirements.txt file with all dependencies:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pip freeze > requirements.txt   `
+`pip freeze > requirements.txt`
 
 Ensure it includes:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   streamlit  pulp  pandas  numpy   `
+`streamlit  pulp  pandas  numpy   `
 
 5\. Test Locally
 ----------------
 
 Run your app locally using:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   streamlit run app.py   `
+`streamlit run main.py   `
 
 6\. Push to GitHub
 ------------------
 
 Initialize a Git repository, commit your files, and push them to GitHub:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git init  git add .  git commit -m "Initial commit"  git branch -M main  git remote add origin https://github.com/[your-username]/Supply-Chain-Optimization.git  git push -u origin main   `
+`git init  `
+`git add .  `
+`git commit -m "Initial commit"  `
+`git branch -M main  `
+`git remote add origin https://github.com/[your-username]/Supply-Chain-Optimization.git  `
+`git push -u origin main   `
 
 7\. Deploy on Streamlit Cloud (Optional)
 ----------------------------------------
